@@ -3,10 +3,10 @@ public class gravitycalc
 {
     //function that calculates the position of falling object
     /*x(f) = 0.5 * at^2 + v(i) + x(i)
-    a = acceleration = -9.81 m/s
-    t = time (in seconds) = 10
-    v(i) = initial velocity
-    x(i) = initial position*/
+      a = acceleration(m/s^2)
+      t = time(in seconds)
+      v(i) = initial velocity
+      x(i) = initial position */
     static double position()
     {
         Scanner obj=new Scanner(System.in);
