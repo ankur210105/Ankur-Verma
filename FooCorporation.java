@@ -31,7 +31,7 @@ public class FooCorporation {
         //main invoked
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
-        System.out.println("ENter the name of the employee");
+        System.out.println("Enter the name of the employee");
         String name=sc.nextLine();
         pay();
     }
