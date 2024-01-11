@@ -20,9 +20,9 @@ public class FooCorporation {
             System.out.println("Enter the number of hours worked");
             int h=obj.nextInt();
             if (h>40&&h<60) 
-                wage=h*p*1.5;
+                wage=40*p+1.5*p*(h-40);
             else if(h>60)
-                wage=h*p*1.5;
+                System.out.println("An employee can work a maximum of 60 hours in a week");
             else
                 wage=h*p;
         }
